@@ -1,0 +1,144 @@
+						/**Defult CSS**/
+*{margin:0px;padding:0px}
+body{font-family: 'Open San', sans-serif !important;font-size:15px;}
+a{text-decoration:none;color:blue;}
+a,a:hover{text-decoration:none;}
+ul{list-style-type: none;}
+p{font-size:14px;}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight:bold !important;
+	margin-bottom: 40px !important;
+}
+h1{
+	color:#009E30 !important;
+}
+h1,p{
+	text-align: center !important;
+}
+.slider_text p ,.about p,.amazing_top_text p,.services_text p,.working_top_text p,.port_text p,.last_text p{font-size: 18px !important;}
+						/*Class CSS*/
+.container{
+	width:1200px !important;
+}
+.clearfix{
+	min-height: 100px;
+}
+.header_bg{}
+.slider_bg{
+	background-image:url(../images/home/slider1.jpg);
+	background-size:cover;
+	min-height: 632px;
+	height:100%;
+	width:100%;
+
+}
+.search_box{
+    padding: 25px;
+}
+.search_box_inner{
+    background: #D3CDD4;
+    padding: 25px;
+    opacity: .9;
+    margin-right: 155px;	
+}
+.slider_text{
+    margin-top: 185px;
+    color: #fff;
+}
+.slider_text h1{
+	font-size:80px;
+	color: #fff !important;
+}
+.slider_text p{
+	text-align:left !important;
+}
+.button1{
+	background:none !important;
+	border: 2px solid #fff !important;
+	border-radius:15px;
+}
+.speacial_bg{
+    background-image: url(../images/home/discount.jpg);
+    min-height: 255px;
+    width: 100%;
+    background-size: cover;
+}
+.about_bg{
+	background-image:url(../images/home/about_bg.jpg);
+	background-size:cover;
+	height:100%;
+	width:100%;
+}
+.about_text p{
+	text-align: left !important;
+
+}
+.video_tute{
+	    width: 570px;
+    height: 416px;
+}
+.video_tute img{
+	width:100%;
+	height:100%;
+}
+.amazing_bg{
+	background-image:url(../images/home/amzing_bg.jpg);
+	background-size:cover;
+	height:100%;
+	width:100%;
+}
+.amazing_img{
+	    margin-left: 18%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.single_amazing .fa {
+    font-size: 70px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 33%;
+    box-shadow: 0px 0px 10px 7px #ddd;
+    color: #6C5CE7;
+    margin-left: 90px;
+}
+.single_services h3,.single_amazing h3{
+	    margin-top: 40px !important;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px !important;
+}
+.services_bg{
+	background-image:url(../images/home/services_bg.jpg);
+	background-size:cover;
+	height:100%;
+	width:100%;
+}
+.single_services{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 30px;
+        border-radius: 10px;
+}
+.single_services .fa{
+	font-size: 70px;
+    color: #E84393;	
+}
+.single_services h3{
+	color:#6C5CE7 !important;
+}
+.nodesign_text h3{
+	font-size:35px !important;
+	color: #e84393;
+}
+/*Scroll Up Css*/
+#scrollUp{
+	height:38px;
+	width:38px;
+	background:url(images/top.png) no-repeat;
+	bottom:100px;
+	right:230px;
+	text-indent:-99999px
+}						
