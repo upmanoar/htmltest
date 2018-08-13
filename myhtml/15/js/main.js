@@ -43,7 +43,7 @@ jQuery(document).ready(function ($) {
     nav:false,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:3
@@ -53,6 +53,17 @@ jQuery(document).ready(function ($) {
         }
     }
 })
+
+        /***
+          Preloader
+      ***/
+      $('body').addClass('preloader-active');
+      
+      $(window).on('load', function() { 
+          $('.preloader').fadeOut();
+          $('.preloader-spinner').delay(350).fadeOut('slow');
+          $('body').removeClass('preloader-active');
+      });
 
 
 }(jQuery));
